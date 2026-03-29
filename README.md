@@ -1,6 +1,8 @@
 # wall-of-starlight
 A simple and mildly irritating Python script that walls Starlight's RMB messages to your terminal.
 
+Works for both TTYs and pTTYs (thanks to @Merethin!).
+
 ## Installation
 ### Cloning
 Clone the repo to your computer and `cd` into the cloned directory.
@@ -15,7 +17,10 @@ Install dependencies. (Note: you may need to configure a virtual environment pre
 
 ## Execution
 Command syntax is as follows.
-```python3 __main__.py <region>```
-where `<region>` is the name of the NationStates region you wish to fetch RMB messages from, in HTML-safe format (e.g. Starlight -> `starlight`, The Great Storm -> `the_great_storm`).
+```python3 __main__.py [-o] [-e <level>] <region>```
+where:
+- `<region>` is the name of the NationStates region you wish to fetch RMB messages from, in HTML-safe format (e.g. Starlight -> `starlight`, The Great Storm -> `the_great_storm`),
+- `-o` sends logs to `stdout`
+- `-e` sets logs to use a specific integer logging level
 
 The program will not exit unless `KeyboardInterrupt`ed.
