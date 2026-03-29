@@ -4,8 +4,10 @@ A simple and mildly irritating Python script that walls Starlight's RMB messages
 ## Installation
 ### Cloning
 Clone the repo to your computer and `cd` into the cloned directory.
-```git clone https://github.com/HippoProgrammer/wall-of-starlight.git
-cd wall-of-starlight/```
+```
+git clone https://github.com/HippoProgrammer/wall-of-starlight.git
+cd wall-of-starlight/
+```
 
 ### Dependencies
 Install dependencies. (Note: you may need to configure a virtual environment pre-dependency-installation, read the [tutorial](https://docs.python.org/3/tutorial/venv.html) if you get an `externally-managed-packages` error)
