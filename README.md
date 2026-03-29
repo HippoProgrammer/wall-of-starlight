@@ -1,7 +1,7 @@
 # wall-of-starlight
 A simple and mildly irritating Python script that walls Starlight's RMB messages to your terminal.
 
-Works for both TTYs and pTTYs (thanks to @Merethin!).
+Works for both TTYs and pTTYs (thanks to [@Merethin](https://github.com/Merethin)!).
 
 ## Installation
 ### Cloning
