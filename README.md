@@ -3,7 +3,15 @@ A simple and mildly irritating Python script that walls Starlight's RMB messages
 
 Works for both TTYs and pTTYs (thanks to [@Merethin](https://github.com/Merethin)!).
 
+## Disclaimers
+This program takes data from users on the internet and passes it to a shell command for output. While every attempt has been made to safely ensure escaping of any user-provided input, the developer of this program takes no responsibility for any unwanted outcomes that may result from the execution of this program. 
+
+Note that any assistance in checking the script for vulnerabilities is always welcomed - please do report any vulnerabilities you find and they shall be swiftly patched!
+
 ## Installation
+### Requirements
+Unix-based system with `wall` and `/dev/pts` support.
+
 ### Cloning
 Clone the repo to your computer and `cd` into the cloned directory.
 ```
